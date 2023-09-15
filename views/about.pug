@@ -1,0 +1,29 @@
+extends base.pug
+block title 
+block scripts 
+    script(src="/static/index.js")
+block style 
+    style 
+        include ../static/style.css
+        include ../static/about.css
+block content 
+    div.container
+        h1 OUR BEST DANCES
+        div.garba    
+            h2 Garba
+            img(src="../static/garbaa.png", alt="")
+            p Garba (Gujarati: ગરબા) is a form of Gujarati dance which originates from the state of Gujarat in India. The name is derived from the Sanskrit term Garbha .[1] Many traditional garbas are performed around a centrally lit lamp or a picture or statue of the Goddess Shakti. Traditionally, it is performed during the nine-day Indian festival Navarātrī (Gujarati: નવરાત્રી, where નવ means 9, and રાત્રી means nights). Either the lamp (the Garba Deep) or an image of the Goddess, Durga (also called Amba) is placed in the middle of concentric rings as an object of veneration
+    
+        div.garba   
+            h2 Bharatnatyam
+            img(src="../static/Kathakali-1.jpg", alt="")
+            p Garba (Gujarati: ગરબા) is a form of Gujarati dance which originates from the state of Gujarat in India. The name is derived from the Sanskrit term Garbha .[1] Many traditional garbas are performed around a centrally lit lamp or a picture or statue of the Goddess Shakti. Traditionally, it is performed during the nine-day Indian festival Navarātrī (Gujarati: નવરાત્રી, where નવ means 9, and રાત્રી means nights). Either the lamp (the Garba Deep) or an image of the Goddess, Durga (also called Amba) is placed in the middle of concentric rings as an object of veneration
+    
+        div.garba    
+            h2 Kathakali
+            img(src="../static/22.jpg", alt="")
+            p Garba (Gujarati: ગરબા) is a form of Gujarati dance which originates from the state of Gujarat in India. The name is derived from the Sanskrit term Garbha .[1] Many traditional garbas are performed around a centrally lit lamp or a picture or statue of the Goddess Shakti. Traditionally, it is performed during the nine-day Indian festival Navarātrī (Gujarati: નવરાત્રી, where નવ means 9, and રાત્રી means nights). Either the lamp (the Garba Deep) or an image of the Goddess, Durga (also called Amba) is placed in the middle of concentric rings as an object of veneration
+        div.join
+            |#[a(href="/contact") Contact Us ]
+        form(action="/About",method="post",class="form")
+            input(type="text",class="myInput",name="feedback",placeholder="Give some feedback")             

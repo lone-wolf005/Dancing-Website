@@ -1,0 +1,36 @@
+extends base.pug
+block scripts 
+    script(src="/static/index.js")
+block style 
+    style 
+        include ../static/style.css
+
+block content 
+
+    section#introSection 
+                div Welcome to journey of Dance 
+                div.small Eat | Dance | Sleep | Repeat
+    section#missionSection 
+                h2 OUR MISSION
+                div.card.card1
+                    h3 Garba
+                    img(src="static/garba.png", alt="")
+                    p Garba is traditional Gujarati Dance.
+                div.card.card2
+                    h3 Bharatnatyam
+                    img(src="static/bharatt.jpg", alt="")
+                    p Bharatnatyam is traditional Dance of Tamil-Nadu.
+                    
+                div.card.card3 
+                    h3 Kathakali
+                    img(src="static/kathakali.png", alt="")
+                    p#p1 Garba is traditional Gujarati Dance.
+
+    section#sponsorSection 
+                h2 Our Sponsors 
+                div#sponsors   
+                    img(src="static/img/logo1.png", alt="Sponsor Image",class="i1")
+                    img(src="static/img/logo2.png", alt="Sponsor Image",class="i2")
+                    img(src="static/img/logo3.png", alt="Sponsor Image",class="i3")
+                    img(src="static/img/logo4.png", alt="Sponsor Image",class="i4")
+    

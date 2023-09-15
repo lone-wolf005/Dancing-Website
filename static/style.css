@@ -1,0 +1,236 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: white;
+
+}
+#navbar{
+    background-color: black;
+    border: white solid 1px;
+    height: 60px;
+    
+}
+#logo{
+    display: flex;
+    align-items: center;
+    filter: invert(1);
+    color: white;
+    /* font-size: 10px; */
+    /* justify-content: center; */
+}
+#logo img{
+    height: 50px;
+    padding-bottom: 12px;
+    margin-left: 57px;
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar ul{
+   display: flex;
+   /* align-items: center; */
+   /* justify-content: center; */
+}
+#navbar{
+    padding: 16px 3px;
+}
+#navbar li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    color: white;
+    padding: 13px 30px;
+    transition: 0.5s;
+}
+#navbar li a:hover{
+    font-size: large;
+}
+#introSection{
+    background:center/cover no-repeat url("/static/1.jpg");
+    overflow: hidden;
+    padding-top: 10px;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 7vh;
+    letter-spacing: 2px;
+    height: 400px;
+}
+.small{
+    padding-top: 5px;
+    font-size: 3vh;
+}
+#introSection div:hover{
+    -webkit-text-stroke:.15px yellow;
+
+}
+#missionSection{
+    padding-top: 40px;
+    color: white;
+    /* background-color: yellow; */
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 480px;
+    background-color: black;
+
+}
+.card{
+    display: inline-block;
+    border: 2px solid yellow;
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 10px;
+    height: 400px;
+    text-transform: uppercase;
+
+    /* transition: all ease 0.5s; */
+
+}
+.card1 img{
+    padding-top: 5px;
+    height: 90%;
+    object-fit: cover;
+    border-radius:10px;
+    align-items: center;
+    transition: all ease 0.5s;
+
+    /* transform: rotate3d(1,1,0,20deg); */
+
+
+     /* background:center/cover no-repeat url("/static/garba.jpg"); */
+     width: 90%;
+}
+.card2 img{
+
+    height: 90%;
+    object-fit: cover;
+    border-radius:10px;
+    transition: all ease 0.5s;
+
+
+     /* background:center/cover no-repeat url("/static/garba.jpg"); */
+     width: 90%;
+}
+.card3 img{
+
+    /* position: relative; */
+    /* scale: 0.8; */
+    /* top: 10px; */
+
+    height: 90%;
+    /* overflow: hidden; */
+    object-fit: cover;
+    /* border: 1px solid black; */
+    border-radius:10px;
+    transition: all ease 0.5s;
+
+     /* background:center/cover no-repeat url("/static/garba.jpg"); */
+     width: 90%;
+}
+.card1 p {
+    position: absolute;
+    /* width: 80%; */
+
+    width: 240px;
+    bottom: -18px;
+    left: 100px;
+    /* opacity: 0; */
+
+}
+.card2 p {
+    position: absolute;
+    columns:black;
+    /* width: 80%; */
+
+    width: 240px;
+    bottom: -18px;
+    /* opacity: 0; */
+    left: 500px;
+}
+.card3 p {
+    position: absolute;
+    /* width: 80%; */
+    /* opacity: 0; */
+    
+    width: 240px;
+    bottom: -18px;
+    left: 910px;
+}
+.card1 img:hover{
+    transform: rotate3d(1,1,0,20deg);
+    opacity: 0.3;
+      
+}
+
+
+.card2 img:hover{
+    transform: rotate3d(1,1,0,20deg);
+    opacity: 0.3;
+      
+}
+.card3 img:hover{
+    transform: rotate3d(1,1,0,20deg);
+    opacity: 0.3;
+      
+}
+
+
+#sponsorSection{
+    height: 200px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 15px;
+
+    background-color: black;
+}
+.i2{
+   width: 20px;
+
+}
+#sponsors{
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aliceblue; */
+}
+.i3{
+    filter:invert(1);
+}
+.i1{
+    filter:invert(1);
+    padding-left:10px;
+}
+#sponsors img{
+    /* width: %; */
+    margin: none;
+    padding: none;
+    width: 17%;
+    height: 120px;
+}
+#footer{
+    height: 100px;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid yellow 1px; */
+    
+    margin-bottom: 5px;
+}

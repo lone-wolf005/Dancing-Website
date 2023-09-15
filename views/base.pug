@@ -1,0 +1,19 @@
+html
+  head
+    block title
+    block scripts
+    block style 
+  body
+    nav#navbar 
+                ul#ul
+                    div#logo
+                        img(src="static/logo.png", alt="")   
+                    li.a1 #[a(href="/") Home ]
+                    li #[a(href="/About") About ]
+                    li #[a(href="/") Services]
+                    li #[a(href="/") Class info ]
+                    li #[a(href="/contact") Contact us ]
+    block content
+
+    footer#footer | Copyright2023@DanceAcadamy
+      
